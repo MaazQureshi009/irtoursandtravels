@@ -19,7 +19,7 @@ const Welcome = () => (
 
 Details like employee attitude, work environment, management style are all taken in thorough consideration to get a winning combination, both for the employer & the employee.
       </p>
-      <Link to='/services'><button type='button' className='custom__button'>LEARN MORE</button></Link>
+      <Link to='/services'><button type='button' className='button-style'>LEARN MORE</button></Link>
     </div>
 
   </div>
@@ -27,10 +27,9 @@ Details like employee attitude, work environment, management style are all taken
     <div className="container">
       <div className='mx-auto text-center mb-sm-5 mb-4 approved'>
       <div className="content">
-      <h3 className="title-main-2 text-center mx-auto mb-sm-4 mb-2">Approved by,</h3>
-      <h4>Ministry of External Affairs,</h4>
-      <h4>Government of India.</h4>
-      <h4>B1609/KER/COM/100/5/9947/2021</h4>
+      <h3 className="title-main-2 text-center mx-auto mb-sm-4 mb-2">Approved by Government of India</h3>
+      <h4 className='title-main-3'>Ministry of External Affairs, Overseas Employment Division.</h4>
+      <h4 className='title-main-3'>B-1878/MUM/PER/100/5/10345/2023</h4>
       <p className="sub-para-style mt-4">"We believe hiring to be the most important first step towards the organization's success."</p>
       <p className="sub-para-style">Let our expertise guide you in the ever-changing world of work. Whether you're taking that next step in your career, building a high-performing team or retaining top talent, stay up-to-date on the latest hiring trends.</p>
       </div>

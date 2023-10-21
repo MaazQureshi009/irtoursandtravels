@@ -22,7 +22,7 @@ const Services = () => {
   </div>
 
 
-<div className='app_header app__wrapper section__padding' id='home'>
+<div className='app_header app__wrapper section__padding reverse' id='home'>
 <div className="app__wrapper_img">
   <img src={images.documents} alt="header img" />
 </div>
@@ -68,6 +68,33 @@ Details like employee attitude, work environment, management style are all taken
                             </div>
                             <h5><Link to="/contact">Arranging medical facilities.</Link></h5>
                             <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="features4-grid">
+                            <div class="feature-images">
+                                <span class="fas fa-clipboard-check icon-color" aria-hidden="true"></span>
+                            </div>
+                            <h5><Link to="/contact">Application for Kuwait PCC</Link></h5>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="features4-grid">
+                            <div class="feature-images">
+                                <span class="fas fa-clipboard-check icon-color" aria-hidden="true"></span>
+                            </div>
+                            <h5><Link to="/contact">F.I.R. ATTESTATION</Link></h5>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="features4-grid">
+                            <div class="feature-images">
+                                <span class="fas fa-clipboard-check icon-color" aria-hidden="true"></span>
+                            </div>
+                            <h5><Link to="/contact">Marriage / Birth Certificates</Link></h5>
+                            
                         </div>
                     </div>
                 </div>

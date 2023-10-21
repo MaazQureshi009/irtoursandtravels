@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
   <nav className='app_navbar'>
     <div className='app_navbar-logo'>
-      <img src={images.gericht} alt="logo" /><p className='p__cormorant' style={{marginBottom: '0'}}>IR TOURS & TRAVELS</p>
+    <Link to="/"><img src={images.gericht} alt="logo" /></Link><p className='p__cormorant' style={{marginBottom: '0'}}>IR TOURS & TRAVELS</p>
     </div>
     <ul className='app_navbar-links'>
       <li className='p__opensans'><Link to="/">Home</Link></li>

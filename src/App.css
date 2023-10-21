@@ -56,7 +56,7 @@ body {
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  background-color: linear-gradient(rgba(8,86,152), rgba(240,130,26));
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -70,13 +70,30 @@ body {
     cursor: pointer;
     text-transform: uppercase;
 }
+.button-style {
+  padding: 12px 36px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 0.5rem 1rem rgb(16 16 16 / 14%);
+  outline: none;
+  border: none;
+  background-size: 200% auto;
+  background-image: linear-gradient(90deg, #095795 0%, #FC8817 51%, #095795 100%);
+  transition: all 1.8s ease-in-out;
+}
+.button-style:hover {
+  background-image: linear-gradient(90deg, #FC8817 0%, #095795 51%, #095795 100%);
 
+}
 .p__cormorant {
-  font-family: var(--font-base);
+  font-family: var(--font-alt);
   color: var(--color-black);
   font-weight: 700;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
